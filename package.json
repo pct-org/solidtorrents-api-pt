@@ -1,0 +1,27 @@
+{
+  "name": "@pct-org/solidtorrents-api-pt",
+  "version": "1.0.1",
+  "description": "A SolidTorrents API wrapper.",
+  "keywords": [
+    "api",
+    "solidtorrents",
+    "popcorn",
+    "torrent"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pct-org/kat-api-pt.git"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "bytes": "^3.0.0",
+    "debug": "^3.1.0",
+    "got": "^8.0.3"
+  },
+  "engines": {
+    "node": ">=6.3.0"
+  }
+}
