@@ -73,7 +73,7 @@ module.exports = class SolidTorrentsApi {
   _formatResponse(response, page, { verified = true }, date) {
     return {
       responseTime: date,
-      totalPages: response.hits.value / 20, // 20 is their page limit
+      totalPages: parseInt(response.hits.value / 20, 10), // 20 is their page limit
       page,
       results: response.results.map((torrent) => {
         if (!torrent.swarm.verified && verified) {
