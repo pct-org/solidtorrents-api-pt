@@ -1,6 +1,6 @@
 {
   "name": "@pct-org/solidtorrents-api-pt",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A SolidTorrents API wrapper.",
   "keywords": [
     "api",
